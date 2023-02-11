@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+.App h1{
+position: absolute;
+width: 600px;
+height: 144px;
+left: 198px;
+top: 120px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 77px;
+color: #FFFFFF;
+
+}
+#num1{
+  box-sizing: border-box;
+  position: absolute;
+  left:198px ;
+  top: 248px ;
+  width: 290px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: black;
+  border: 2px solid #FFFFFF;
+}
+#num2{
+  box-sizing: border-box;
+  position: absolute;
+  left:198px ;
+  top: 333px ;
+  width: 290px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: black;
+  border: 2px solid #FFFFFF;
+}
+#addButtons{
+position: absolute;
+width: 61px;
+height: 61px;
+left: 200px;
+top: 418px;
+background: #FFFFFF;
+font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#subButtons{
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 275px;
+  top: 418px;
+  background: #FFFFFF;
+  font-size: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#multiButtons{
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 350px;
+  top: 418px;
+  background: #FFFFFF;
+  font-size: 25px;
 }
+#divButtons{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+position: absolute;
+width: 61px;
+height: 61px;
+left: 425px;
+top: 418px;
+background: #FFFFFF;
+font-size: 25px;
 }
+.App h2{
+  color: #FFFFFF;
+  position: absolute;
+width: 93px;
+height: 29px;
+left: 211px;
+top: 524px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
 
-.App-link {
-  color: #61dafb;
 }
+.App p{
+  position: absolute;
+  width: 600px;
+height: 144px;
+left: 198px;
+top: 599px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
